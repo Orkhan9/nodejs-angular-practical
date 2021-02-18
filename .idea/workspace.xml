@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e4f8e62-ec28-49cd-8aeb-dc52b990752d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/nodejs-angular-practical/src/app/posts/post-create/post-create.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nodejs-angular-practical/src/app/posts/post-create/post-create.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nodejs-angular-practical/src/app/posts/post-create/post-create.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nodejs-angular-practical/src/app/posts/post-create/post-create.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nodejs-angular-practical/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs-angular-practical/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nodejs-angular-practical/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs-angular-practical/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nodejs-angular-practical/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs-angular-practical/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/posts/post-create/post-create.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/posts/post-create/post-create.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/posts/post-create/post-create.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/posts/post-create/post-create.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,18 +21,41 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ofBSI5LohhvJMyOHwpJRaJQlog" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Users\orkhan\WebstormProjects\nodejs-angular-practical\frontend\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/frontend/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="4e4f8e62-ec28-49cd-8aeb-dc52b990752d" name="Default Changelist" comment="" />
@@ -39,7 +64,35 @@
       <option name="presentableId" value="Default" />
       <updated>1613667762944</updated>
       <workItem from="1613667764284" duration="29000" />
+      <workItem from="1613667832457" duration="2571000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1613667880187</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1613667880187</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
 </project>
