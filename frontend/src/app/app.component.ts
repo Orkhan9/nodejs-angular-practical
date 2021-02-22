@@ -8,8 +8,4 @@ import {Post} from "./posts/post";
 })
 export class AppComponent {
   title = 'nodejs-angular-practical';
-  storedPosts:Post[]=[];
-  onPostAdded(post:Post){
-    this.storedPosts.push(post);
-  }
 }
