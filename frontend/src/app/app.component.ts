@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {Post} from "./posts/post";
 
 @Component({
   selector: 'app-root',
@@ -7,8 +8,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'nodejs-angular-practical';
-  storedPosts=[];
-  onPostAdded(post){
+  storedPosts:Post[]=[];
+  onPostAdded(post:Post){
     this.storedPosts.push(post);
   }
 }
