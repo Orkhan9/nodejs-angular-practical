@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e4f8e62-ec28-49cd-8aeb-dc52b990752d" name="Default Changelist" comment="calling get post">
+    <list default="true" id="4e4f8e62-ec28-49cd-8aeb-dc52b990752d" name="Default Changelist" comment="working form">
+      <change afterPath="$PROJECT_DIR$/backend/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/posts/post-create/post-create.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/posts/post-create/post-create.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/posts/post-create/post-create.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/posts/post-create/post-create.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/posts/post-list/post-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/posts/post-list/post-list.component.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -28,7 +36,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../proshop" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="ts.external.directory.path" value="C:\Users\orkhan\WebstormProjects\nodejs-angular-practical\frontend\node_modules\typescript\lib" />
@@ -62,7 +70,9 @@
       <workItem from="1613667764284" duration="29000" />
       <workItem from="1613667832457" duration="4596000" />
       <workItem from="1613930576075" duration="3016000" />
-      <workItem from="1613995580683" duration="11873000" />
+      <workItem from="1613995580683" duration="12767000" />
+      <workItem from="1614109168392" duration="595000" />
+      <workItem from="1614179057792" duration="3124000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1613667880187</created>
@@ -127,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614021575236</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="working form">
+      <created>1614025645138</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1614025645138</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +173,7 @@
     <MESSAGE value="form" />
     <MESSAGE value="posts service" />
     <MESSAGE value="calling get post" />
-    <option name="LAST_COMMIT_MESSAGE" value="calling get post" />
+    <MESSAGE value="working form" />
+    <option name="LAST_COMMIT_MESSAGE" value="working form" />
   </component>
 </project>
