@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e4f8e62-ec28-49cd-8aeb-dc52b990752d" name="Default Changelist" comment="mongodb">
+    <list default="true" id="4e4f8e62-ec28-49cd-8aeb-dc52b990752d" name="Default Changelist" comment="storing in database">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app.js" afterDir="false" />
     </list>
@@ -88,7 +88,7 @@
       <workItem from="1614109168392" duration="595000" />
       <workItem from="1614179057792" duration="10041000" />
       <workItem from="1614211848329" duration="2327000" />
-      <workItem from="1614262553054" duration="7898000" />
+      <workItem from="1614262553054" duration="10181000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1613667880187</created>
@@ -223,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614277090137</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="storing in database">
+      <created>1614280074756</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1614280074756</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,6 +268,7 @@
     <MESSAGE value="cors" />
     <MESSAGE value="create post" />
     <MESSAGE value="mongodb" />
-    <option name="LAST_COMMIT_MESSAGE" value="mongodb" />
+    <MESSAGE value="storing in database" />
+    <option name="LAST_COMMIT_MESSAGE" value="storing in database" />
   </component>
 </project>
