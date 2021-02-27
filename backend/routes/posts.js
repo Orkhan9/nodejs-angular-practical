@@ -10,7 +10,7 @@ router.post('',(req,res,next)=>{
     })
     post.save().then(createdPost=>{
         res.status(201).json({
-            message:'Post added successfully',
+            message:'PostModel added successfully',
             postId:createdPost._id
         })
     });
@@ -46,7 +46,7 @@ router.get('/:id',(req,res,next)=>{
         if(post){
             res.status(200).json(post);
         }else{
-            res.status(404).json({message:'Post not found'})
+            res.status(404).json({message:'PostModel not found'})
         }
     })
 })
@@ -54,7 +54,7 @@ router.get('/:id',(req,res,next)=>{
 router.delete('/:id',(req,res,next)=>{
     Post.deleteOne({_id:req.params.id}).then(result=>{
         console.log(result)
-        res.status(200).json({message:'Post is deleted'});
+        res.status(200).json({message:'PostModel is deleted'});
     })
 })
 

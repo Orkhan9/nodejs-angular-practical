@@ -1,5 +1,5 @@
 import {Component, OnDestroy, OnInit} from '@angular/core';
-import {Post} from "../post";
+import {PostModel} from "../post.model";
 import {PostsService} from "../posts.service";
 import {Subscription} from "rxjs";
 
@@ -15,14 +15,17 @@ export class PostListComponent implements OnInit,OnDestroy {
   //   {title:'3rd post title',content:'3rd post content'},
   //   {title:'4th post title',content:'4th post content'}
   // ]
-  posts:Post[]=[];
+  posts:PostModel[]=[];
+  isLoading:boolean=false;
   private postsSub=new Subscription();
   constructor(private postsService:PostsService) { }
 
   ngOnInit(): void {
+    this.isLoading=true;
     this.postsService.getPosts();
     this.postsSub=this.postsService.getPostsUpdatedListener()
-      .subscribe((posts:Post[])=>{
+      .subscribe((posts:PostModel[])=>{
+        this.isLoading=false;
         this.posts=posts;
       })
   }
