@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e4f8e62-ec28-49cd-8aeb-dc52b990752d" name="Default Changelist" comment="deleting posts from database">
+    <list default="true" id="4e4f8e62-ec28-49cd-8aeb-dc52b990752d" name="Default Changelist" comment="adding posts with an ID &amp; updating front after deleting post">
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/app-routing.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/posts/posts.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/posts/posts.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app.module.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +44,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\orkhan\WebstormProjects\nodejs-angular-practical\frontend\src\app" />
       <recent name="C:\Users\orkhan\WebstormProjects\nodejs-angular-practical" />
     </key>
   </component>
@@ -89,7 +91,9 @@
       <workItem from="1614109168392" duration="595000" />
       <workItem from="1614179057792" duration="10041000" />
       <workItem from="1614211848329" duration="2327000" />
-      <workItem from="1614262553054" duration="15233000" />
+      <workItem from="1614262553054" duration="15617000" />
+      <workItem from="1614371152598" duration="841000" />
+      <workItem from="1614420623106" duration="987000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1613667880187</created>
@@ -252,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614287661265</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="adding posts with an ID &amp; updating front after deleting post">
+      <created>1614291679411</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1614291679411</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,6 +305,7 @@
     <MESSAGE value="fetching from database" />
     <MESSAGE value="transforming response data" />
     <MESSAGE value="deleting posts from database" />
-    <option name="LAST_COMMIT_MESSAGE" value="deleting posts from database" />
+    <MESSAGE value="adding posts with an ID &amp; updating front after deleting post" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding posts with an ID &amp; updating front after deleting post" />
   </component>
 </project>
