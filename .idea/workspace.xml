@@ -3,10 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="4e4f8e62-ec28-49cd-8aeb-dc52b990752d" name="Default Changelist" comment="adding posts with an ID &amp; updating front after deleting post">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/models/post.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/post.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/routes/posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/posts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/app/posts/post-create/post-create.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/posts/post-create/post-create.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/posts/post-list/post-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/posts/post-list/post-list.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/app/posts/post.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/posts/post.model.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/app/posts/posts.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/posts/posts.service.ts" afterDir="false" />
     </list>
@@ -101,7 +100,8 @@
       <workItem from="1614523743241" duration="2827000" />
       <workItem from="1614547606349" duration="1399000" />
       <workItem from="1614549338212" duration="2957000" />
-      <workItem from="1614628216510" duration="6808000" />
+      <workItem from="1614628216510" duration="7348000" />
+      <workItem from="1614699653916" duration="2248000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1613667880187</created>
@@ -341,7 +341,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614636084079</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="uploading files">
+      <created>1614641286832</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1614641286832</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -361,7 +368,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="calling get post" />
     <MESSAGE value="working form" />
     <MESSAGE value="node express backend" />
     <MESSAGE value="improving server.js" />
@@ -386,6 +392,7 @@
     <MESSAGE value="adding image controls to store the image" />
     <MESSAGE value="adding image preview" />
     <MESSAGE value="file upload backend" />
-    <option name="LAST_COMMIT_MESSAGE" value="file upload backend" />
+    <MESSAGE value="uploading files" />
+    <option name="LAST_COMMIT_MESSAGE" value="uploading files" />
   </component>
 </project>
