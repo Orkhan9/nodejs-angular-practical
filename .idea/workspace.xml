@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e4f8e62-ec28-49cd-8aeb-dc52b990752d" name="Default Changelist" comment="fetching images on the frontend">
-      <change afterPath="$PROJECT_DIR$/backend/images/5555-1614712180283.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/images/5555-1614712359395.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/images/test-1614712158435.jpg" afterDir="false" />
+    <list default="true" id="4e4f8e62-ec28-49cd-8aeb-dc52b990752d" name="Default Changelist" comment="updating posts with images">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/routes/posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/posts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/posts/post-create/post-create.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/posts/post-create/post-create.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/posts/posts.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/posts/posts.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/posts/post-list/post-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/posts/post-list/post-list.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/posts/post-list/post-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/posts/post-list/post-list.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +99,8 @@
       <workItem from="1614547606349" duration="1399000" />
       <workItem from="1614549338212" duration="2957000" />
       <workItem from="1614628216510" duration="7348000" />
-      <workItem from="1614699653916" duration="6874000" />
+      <workItem from="1614699653916" duration="7881000" />
+      <workItem from="1614799833482" duration="318000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1613667880187</created>
@@ -363,7 +361,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614704258005</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="updating posts with images">
+      <created>1614713015333</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1614713015333</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -383,7 +388,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="improving server.js" />
     <MESSAGE value="fetching posts backend" />
     <MESSAGE value="concurrently" />
     <MESSAGE value="gitignore" />
@@ -408,6 +412,7 @@
     <MESSAGE value="uploading files" />
     <MESSAGE value="file url" />
     <MESSAGE value="fetching images on the frontend" />
-    <option name="LAST_COMMIT_MESSAGE" value="fetching images on the frontend" />
+    <MESSAGE value="updating posts with images" />
+    <option name="LAST_COMMIT_MESSAGE" value="updating posts with images" />
   </component>
 </project>

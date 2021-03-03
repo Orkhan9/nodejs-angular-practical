@@ -9,14 +9,11 @@ import {Subscription} from "rxjs";
   styleUrls: ['./post-list.component.css']
 })
 export class PostListComponent implements OnInit,OnDestroy {
-  // posts=[
-  //   {title:'1st post title',content:'1st post content'},
-  //   {title:'2nd post title',content:'2nd post content'},
-  //   {title:'3rd post title',content:'3rd post content'},
-  //   {title:'4th post title',content:'4th post content'}
-  // ]
   posts:Post[]=[];
   isLoading:boolean=false;
+  totalPosts=10;
+  postsPerPage=1;
+  pageSizeOptions=[1,2,3,5,10];
   private postsSub=new Subscription();
   constructor(private postsService:PostsService) { }
 
