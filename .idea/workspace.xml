@@ -2,18 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e4f8e62-ec28-49cd-8aeb-dc52b990752d" name="Default Changelist" comment="updating posts with images">
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/auth/login/login.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/auth/login/login.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/auth/login/login.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/auth/login/login.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/images/555-1614702898187.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/backend/images/post1-1614936976507.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/images/5555-1614712180283.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/backend/images/post2-1614936993206.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/images/5555-1614712359395.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/images/5555-1614712914576.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/backend/images/post3-1614937017447.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/images/test-1614704196642.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/images/test-1614712158435.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/images/test3-1614933461981.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/routes/posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/posts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/posts/post-list/post-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/posts/post-list/post-list.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/posts/post-list/post-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/posts/post-list/post-list.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/posts/posts.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/posts/posts.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/header/header.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/header/header.component.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +106,7 @@
       <workItem from="1614699653916" duration="7881000" />
       <workItem from="1614799833482" duration="1120000" />
       <workItem from="1614883709837" duration="4577000" />
-      <workItem from="1614932441195" duration="4020000" />
+      <workItem from="1614932441195" duration="5580000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1613667880187</created>
@@ -406,7 +402,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614933590521</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="fetching posts correctly">
+      <created>1614937106370</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1614937106370</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -426,7 +429,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="cors" />
     <MESSAGE value="create post" />
     <MESSAGE value="mongodb" />
     <MESSAGE value="storing in database" />
@@ -451,6 +453,7 @@
     <MESSAGE value="pagination frontend" />
     <MESSAGE value="pagination backend" />
     <MESSAGE value="connecting front paginator to the backend" />
-    <option name="LAST_COMMIT_MESSAGE" value="connecting front paginator to the backend" />
+    <MESSAGE value="fetching posts correctly" />
+    <option name="LAST_COMMIT_MESSAGE" value="fetching posts correctly" />
   </component>
 </project>
