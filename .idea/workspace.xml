@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e4f8e62-ec28-49cd-8aeb-dc52b990752d" name="Default Changelist" comment="updating posts with images">
+      <change afterPath="$PROJECT_DIR$/backend/models/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/routes/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/auth/register/register.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/auth/register/register.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/auth/register/register.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/auth/register/register.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/auth/login/login.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/auth/login/login.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/header/header.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/header/header.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +111,8 @@
       <workItem from="1614699653916" duration="7881000" />
       <workItem from="1614799833482" duration="1120000" />
       <workItem from="1614883709837" duration="4577000" />
-      <workItem from="1614932441195" duration="7404000" />
+      <workItem from="1614932441195" duration="8261000" />
+      <workItem from="1614960562834" duration="1965000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1613667880187</created>
@@ -410,7 +422,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614947341105</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="handling user input">
+      <created>1614953711863</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1614953711863</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -430,7 +449,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="mongodb" />
     <MESSAGE value="storing in database" />
     <MESSAGE value="fetching from database" />
     <MESSAGE value="transforming response data" />
@@ -455,6 +473,7 @@
     <MESSAGE value="connecting front paginator to the backend" />
     <MESSAGE value="fetching posts correctly" />
     <MESSAGE value="login component" />
-    <option name="LAST_COMMIT_MESSAGE" value="login component" />
+    <MESSAGE value="handling user input" />
+    <option name="LAST_COMMIT_MESSAGE" value="handling user input" />
   </component>
 </project>
