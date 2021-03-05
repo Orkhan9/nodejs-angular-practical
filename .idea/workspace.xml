@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4e4f8e62-ec28-49cd-8aeb-dc52b990752d" name="Default Changelist" comment="updating posts with images">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/routes/posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/posts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/posts/post-list/post-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/posts/post-list/post-list.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/posts/posts.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/posts/posts.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +100,8 @@
       <workItem from="1614628216510" duration="7348000" />
       <workItem from="1614699653916" duration="7881000" />
       <workItem from="1614799833482" duration="1120000" />
-      <workItem from="1614883709837" duration="3854000" />
+      <workItem from="1614883709837" duration="4577000" />
+      <workItem from="1614932441195" duration="772000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1613667880187</created>
@@ -381,7 +383,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614884764818</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="pagination backend">
+      <created>1614896166249</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1614896166249</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -401,7 +410,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="concurrently" />
     <MESSAGE value="gitignore" />
     <MESSAGE value="cors" />
     <MESSAGE value="create post" />
@@ -426,6 +434,7 @@
     <MESSAGE value="fetching images on the frontend" />
     <MESSAGE value="updating posts with images" />
     <MESSAGE value="pagination frontend" />
-    <option name="LAST_COMMIT_MESSAGE" value="pagination frontend" />
+    <MESSAGE value="pagination backend" />
+    <option name="LAST_COMMIT_MESSAGE" value="pagination backend" />
   </component>
 </project>
