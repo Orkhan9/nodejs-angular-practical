@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e4f8e62-ec28-49cd-8aeb-dc52b990752d" name="Default Changelist" comment="updating posts with images">
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/auth/login/login.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/auth/login/login.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/auth/login/login.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/auth/login/login.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/header/header.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/header/header.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/auth/login/login.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/auth/login/login.component.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +100,7 @@
       <workItem from="1614699653916" duration="7881000" />
       <workItem from="1614799833482" duration="1120000" />
       <workItem from="1614883709837" duration="4577000" />
-      <workItem from="1614932441195" duration="5580000" />
+      <workItem from="1614932441195" duration="7404000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1613667880187</created>
@@ -409,7 +403,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614937106370</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="login component">
+      <created>1614947341105</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1614947341105</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -429,7 +430,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="create post" />
     <MESSAGE value="mongodb" />
     <MESSAGE value="storing in database" />
     <MESSAGE value="fetching from database" />
@@ -454,6 +454,7 @@
     <MESSAGE value="pagination backend" />
     <MESSAGE value="connecting front paginator to the backend" />
     <MESSAGE value="fetching posts correctly" />
-    <option name="LAST_COMMIT_MESSAGE" value="fetching posts correctly" />
+    <MESSAGE value="login component" />
+    <option name="LAST_COMMIT_MESSAGE" value="login component" />
   </component>
 </project>
