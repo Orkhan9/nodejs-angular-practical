@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e4f8e62-ec28-49cd-8aeb-dc52b990752d" name="Default Changelist" comment="updating posts with images">
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/auth/auth-data.model.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/auth/auth.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/routes/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/auth/register/register.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/auth/register/register.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
@@ -109,7 +105,7 @@
       <workItem from="1614932441195" duration="8261000" />
       <workItem from="1614960562834" duration="4097000" />
       <workItem from="1614971348851" duration="647000" />
-      <workItem from="1615057529971" duration="1271000" />
+      <workItem from="1615057529971" duration="3908000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1613667880187</created>
@@ -433,7 +429,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614962660118</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="auth service frontend">
+      <created>1615058939171</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1615058939172</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -453,7 +456,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="fetching from database" />
     <MESSAGE value="transforming response data" />
     <MESSAGE value="deleting posts from database" />
     <MESSAGE value="adding posts with an ID &amp; updating front after deleting post" />
@@ -478,6 +480,7 @@
     <MESSAGE value="login component" />
     <MESSAGE value="handling user input" />
     <MESSAGE value="user model backend" />
-    <option name="LAST_COMMIT_MESSAGE" value="user model backend" />
+    <MESSAGE value="auth service frontend" />
+    <option name="LAST_COMMIT_MESSAGE" value="auth service frontend" />
   </component>
 </project>
