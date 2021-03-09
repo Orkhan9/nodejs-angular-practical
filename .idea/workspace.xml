@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e4f8e62-ec28-49cd-8aeb-dc52b990752d" name="Default Changelist" comment="updating posts with images">
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/auth/auth.interceptor.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/middleware/check-auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/middleware/check-auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/auth/auth.interceptor.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/auth/auth.interceptor.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/app/auth/auth.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/auth/auth.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +36,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../proshop" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="ts.external.directory.path" value="C:\Users\orkhan\WebstormProjects\nodejs-angular-practical\frontend\node_modules\typescript\lib" />
@@ -109,13 +108,11 @@
       <workItem from="1615057529971" duration="9989000" />
       <workItem from="1615080411354" duration="1261000" />
       <workItem from="1615221872513" duration="593000" />
-    </task>
-    <task id="LOCAL-00002" summary="angular-material">
-      <created>1613670568948</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1613670568948</updated>
+      <workItem from="1615229884680" duration="4028000" />
+      <workItem from="1615281492379" duration="596000" />
+      <workItem from="1615288030557" duration="1333000" />
+      <workItem from="1615297925330" duration="1931000" />
+      <workItem from="1615310688540" duration="2443000" />
     </task>
     <task id="LOCAL-00003" summary="header">
       <created>1613673963319</created>
@@ -453,7 +450,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615069349733</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="auth.interceptor.ts">
+      <created>1615230144476</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1615230144476</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -473,7 +477,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="routing front" />
     <MESSAGE value="styling links" />
     <MESSAGE value="update posts" />
     <MESSAGE value="re-organizing backend routes" />
@@ -498,6 +501,7 @@
     <MESSAGE value="jwt backend" />
     <MESSAGE value="sending the token to the frontend" />
     <MESSAGE value="middleware post,put,delete routes" />
-    <option name="LAST_COMMIT_MESSAGE" value="middleware post,put,delete routes" />
+    <MESSAGE value="auth.interceptor.ts" />
+    <option name="LAST_COMMIT_MESSAGE" value="auth.interceptor.ts" />
   </component>
 </project>
