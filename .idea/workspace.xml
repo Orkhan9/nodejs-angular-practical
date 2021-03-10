@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e4f8e62-ec28-49cd-8aeb-dc52b990752d" name="Default Changelist" comment="updating posts with images">
+      <change afterPath="$PROJECT_DIR$/backend/images/post5-1615313619548.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/middleware/check-auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/middleware/check-auth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/auth/auth.interceptor.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/auth/auth.interceptor.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/auth/auth.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/auth/auth.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/routes/posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/posts.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +35,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../devcamper_api" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="ts.external.directory.path" value="C:\Users\orkhan\WebstormProjects\nodejs-angular-practical\frontend\node_modules\typescript\lib" />
@@ -112,14 +111,8 @@
       <workItem from="1615281492379" duration="596000" />
       <workItem from="1615288030557" duration="1333000" />
       <workItem from="1615297925330" duration="1931000" />
-      <workItem from="1615310688540" duration="2443000" />
-    </task>
-    <task id="LOCAL-00003" summary="header">
-      <created>1613673963319</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1613673963319</updated>
+      <workItem from="1615310688540" duration="4229000" />
+      <workItem from="1615370593182" duration="22000" />
     </task>
     <task id="LOCAL-00004" summary="post-list">
       <created>1613932984862</created>
@@ -457,7 +450,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615230144476</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="send token frontend to the backend with headers">
+      <created>1615313396267</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1615313396267</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -477,7 +477,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="styling links" />
     <MESSAGE value="update posts" />
     <MESSAGE value="re-organizing backend routes" />
     <MESSAGE value="loading spinner" />
@@ -502,6 +501,7 @@
     <MESSAGE value="sending the token to the frontend" />
     <MESSAGE value="middleware post,put,delete routes" />
     <MESSAGE value="auth.interceptor.ts" />
-    <option name="LAST_COMMIT_MESSAGE" value="auth.interceptor.ts" />
+    <MESSAGE value="send token frontend to the backend with headers" />
+    <option name="LAST_COMMIT_MESSAGE" value="send token frontend to the backend with headers" />
   </component>
 </project>

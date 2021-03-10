@@ -69,7 +69,7 @@ router.put('/:id',
     Post.updateOne({_id:req.params.id},post)
         .then(result=>{
 
-            res.status(200).json({message:'Updated successfully'})
+            res.status(200).json({message:'Updated successfully',post:post})
         });
 })
 
